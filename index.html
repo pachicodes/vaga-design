@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaga: Designer UI/UX - Projeto Leia+</title>
+    <title>Vagas - Projeto Leia+ | Oportunidades em Tech</title>
     <meta name="description"
-        content="Transforme vidas com design no mundo da leitura! Estágio remoto para mulheres designer UI/UX">
+        content="Encontre oportunidades incríveis para trabalhar no Leia+. Vagas abertas em design, desenvolvimento e mais!">
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
     <link rel="stylesheet" href="styles.css">
@@ -14,97 +14,277 @@
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav-brand">
+                    <h1 class="logo">📚 Leia+ Vagas</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="/leia-plus-landing/" class="nav-link">← Voltar ao Site</a></li>
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#vagas" class="nav-link">Vagas <span class="job-count">1</span></a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#cultura" class="nav-link">Cultura</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
     <main>
         <!-- Hero Section -->
-        <section class="hero">
+        <section id="inicio" class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1 class="hero-title">Designer UI/UX</h1>
-                    <div class="job-details">
+                    <h1 class="hero-title">Trabalhe Conosco</h1>
+                    <p class="hero-subtitle">
+                        Junte-se ao Leia+ e ajude a revolucionar a experiência de leitura no Brasil. 
+                        Estamos construindo o futuro da leitura digital com tecnologia e paixão.
+                    </p>
+                    <div class="job-stats">
                         <span class="detail-item">
-                            <strong>Modalidade:</strong> Remoto
+                            <strong>1</strong> Vaga Aberta
                         </span>
                         <span class="detail-item">
-                            <strong>Tipo:</strong> Estágio/Freelancer
+                            <strong>100%</strong> Remoto
                         </span>
                         <span class="detail-item">
-                            <strong>Foco:</strong> Vaga afirmativa para mulheres
+                            <strong>Diversidade</strong> Foco em inclusão
                         </span>
                     </div>
-                    <a href="https://forms.gle/487ohUqi5pV4xjWP9" class="cta-button" target="_blank">Candidatar-se Agora</a>
+                    <a href="#vagas" class="cta-button">📋 Ver Vagas Abertas</a>
                 </div>
             </div>
         </section>
 
-        <!-- Job Description -->
-    <section id="vaga" class="job-description">
-        <div class="container">
-            <h2>Sobre o Projeto</h2>
-            <div class="content-grid">
-                <div class="main-content">
-                    <p><strong>Leia+</strong> é um app mobile com o objetivo de incentivar a leitura no Brasil com diário intuitivo e
-                        recomendações por IA. Você participará desde o MVP(produto minimo viavel), influenciando o design base e fazendo parte da tomada de decisões UI/UX.</p>
-
-                    <h3>Suas Responsabilidades:</h3>
-                    <ul>
-                        <li>Criar a identidade visual da marca (logo, paleta de cores, iconografia)</li>
-                        <li>Criar UI/UX das telas principais do MVP</li>
-                        <li>Desenvolver wireframes e protótipos funcionais</li>
-                        <li>Mapear fluxos de usuário essenciais</li>
-                        <li>Construir design system básico</li>
-                        <li>Trabalhar em sprints com autonomia, mas apoio, você não estará sozinha.</li>
-                        <li>Se for algo do seu interesse, também podemos ter tarefas de mídias sociais (Instagram, LinkedIn)</li>
-                    </ul>
+        <!-- Vagas Abertas -->
+        <section id="vagas" class="jobs-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Oportunidades Disponíveis</h2>
+                    <p class="section-subtitle">Faça parte da nossa equipe e ajude a revolucionar a leitura no Brasil</p>
                 </div>
-                <div class="sidebar">
-                    <div class="info-card">
-                        <h4>Detalhes da Vaga</h4>
-                        <ul class="info-list">
-                            <li><strong>💰</strong> R$ 1.000/mês (inicialmente por 3 meses)</li>
-                            <li><strong>👩‍💻</strong> 100% remoto</li>
-                            <li><strong>⏰</strong> Horários flexíveis</li>
-                            <li><strong>♀️</strong> Vaga afirmativa para mulheres</li>
+                
+                <!-- Vaga Designer UI/UX -->
+                <div class="job-card">
+                    <div class="job-status-badge">🔥 VAGA ATIVA</div>
+                    <div class="job-header">
+                        <div class="job-title-area">
+                            <h3 class="job-title">Designer UI/UX</h3>
+                            <div class="job-badges">
+                                <span class="badge badge-remote">Remoto</span>
+                                <span class="badge badge-diversity">Vaga Afirmativa</span>
+                                <span class="badge badge-type">Estágio/Freelancer</span>
+                            </div>
+                        </div>
+                        <div class="job-salary">R$ 1.000/mês</div>
+                    </div>
+                    
+                    <div class="job-summary">
+                        <p>Participe da criação do MVP do Leia+, um app mobile inovador que incentiva a leitura no Brasil através de um diário intuitivo e recomendações por IA.</p>
+                    </div>
+                    
+                    <div class="job-details-grid">
+                        <div class="job-responsibilities">
+                            <h4>Principais Responsabilidades:</h4>
+                            <ul>
+                                <li>Criar a identidade visual da marca</li>
+                                <li>Desenvolver UI/UX das telas principais do MVP</li>
+                                <li>Criar wireframes e protótipos funcionais</li>
+                                <li>Mapear fluxos de usuário essenciais</li>
+                                <li>Construir design system básico</li>
+                                <li>Trabalhar em sprints com autonomia</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="job-requirements">
+                            <h4>O que buscamos:</h4>
+                            <ul>
+                                <li>Paixão por design de interfaces e UX</li>
+                                <li>Amor pela leitura e universo literário</li>
+                                <li>Conhecimento em Figma, Sketch ou Adobe XD</li>
+                                <li>Capacidade de trabalho remoto</li>
+                                <li>Mulher buscando crescer na carreira tech</li>
+                                <li>Interesse em design mobile (diferencial)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="job-benefits">
+                        <h4>Oferecemos:</h4>
+                        <div class="benefits-list">
+                            <span class="benefit-item">💰 R$ 1.000/mês por 3 meses</span>
+                            <span class="benefit-item">🏠 100% remoto</span>
+                            <span class="benefit-item">⏰ Horários flexíveis</span>
+                            <span class="benefit-item">📚 Ambiente de aprendizado</span>
+                            <span class="benefit-item">👥 Mentoria e suporte</span>
+                        </div>
+                    </div>
+                    
+                    <div class="job-actions">
+                        <a href="https://forms.gle/487ohUqi5pV4xjWP9" class="btn-apply" target="_blank">
+                            Candidatar-se Agora
+                        </a>
+                        <button class="btn-share" onclick="shareJob('Designer UI/UX')">
+                            Compartilhar Vaga
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Placeholder para futuras vagas -->
+                <div class="future-jobs">
+                    <h3>🚀 Em breve, mais oportunidades!</h3>
+                    <p>Estamos crescendo e em breve teremos mais vagas disponíveis em desenvolvimento, marketing, produto e outras áreas.</p>
+                    <a href="#newsletter" class="btn-secondary">Ser notificado de novas vagas</a>
+                </div>
+            </div>
+        </section>
+        <!-- Sobre a Empresa -->
+        <section id="sobre" class="about-company">
+            <div class="container">
+                <h2>Sobre o Leia+</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p><strong>O Leia+</strong> é um aplicativo mobile inovador que está revolucionando a forma como as pessoas descobrem e acompanham suas leituras no Brasil.</p>
+                        
+                        <h3>Nossa Missão</h3>
+                        <p>Incentivar a leitura no Brasil através da tecnologia, conectando pessoas com histórias que transformam vidas por meio de um diário de leitura intuitivo e recomendações inteligentes por IA.</p>
+                        
+                        <h3>O que Fazemos</h3>
+                        <ul>
+                            <li data-icon="📱">Desenvolvemos uma plataforma mobile intuitiva</li>
+                            <li data-icon="🤖">Utilizamos IA para recomendações personalizadas</li>
+                            <li data-icon="📊">Criamos ferramentas de acompanhamento de leitura</li>
+                            <li data-icon="👥">Construímos uma comunidade de leitores</li>
                         </ul>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h4>🎯 Estágio Atual</h4>
+                            <p>Desenvolvimento do MVP com foco nas funcionalidades essenciais</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>🚀 Visão</h4>
+                            <p>Ser a principal plataforma de descoberta e acompanhamento de leitura no Brasil</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>💡 Inovação</h4>
+                            <p>Combinamos tecnologia de IA com paixão pela literatura</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-         <div style="text-align: center; margin-top: 2rem;">
-                <a href="https://forms.gle/487ohUqi5pV4xjWP9" class="cta-button" target="_blank">Candidatar-se Agora</a>
-            </div>
-    </section>
+        </section>
 
-    <!-- Requirements -->
-    <section id="requisitos" class="requirements">
-        <div class="container">
-            <h2>Perfil Que Busco</h2>
-            <div class="requirements-grid">
-                <div class="requirement-card">
-                    <h3>Essencial</h3>
-                    <ul>
-                        <li>Paixão por design de interfaces e impacto do UX</li>
-                        <li>Amor pela leitura e universo literário</li>
-                        <li>Conhecimento básico em Figma, Sketch ou Adobe XD</li>
-                        <li>Capacidade de trabalho autônomo e remoto</li>
-                        <li>Mulher buscando crescer na carreira tech</li>
-                    </ul>
+        <!-- Nossa Cultura -->
+        <section id="cultura" class="company-culture">
+            <div class="container">
+                <h2>Nossa Cultura & Valores</h2>
+                <div class="culture-grid">
+                    <div class="culture-item">
+                        <div class="culture-icon">👥</div>
+                        <h3>Diversidade & Inclusão</h3>
+                        <p>Valorizamos diferentes perspectivas e promovemos um ambiente inclusivo, especialmente para grupos sub-representados na tech.</p>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-icon">🌱</div>
+                        <h3>Crescimento</h3>
+                        <p>Investimos no desenvolvimento pessoal e profissional, oferecendo mentoria e oportunidades de aprendizado.</p>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-icon">🎯</div>
+                        <h3>Impacto</h3>
+                        <p>Trabalhamos com propósito, sabendo que cada feature desenvolvida pode incentivar mais pessoas a ler.</p>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-icon">⚡</div>
+                        <h3>Agilidade</h3>
+                        <p>Trabalhamos com sprints, feedback rápido e iteração constante para entregar valor rapidamente.</p>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-icon">🏠</div>
+                        <h3>Flexibilidade</h3>
+                        <p>100% remoto com horários flexíveis, priorizando resultados e bem-estar da equipe.</p>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-icon">📚</div>
+                        <h3>Paixão por Leitura</h3>
+                        <p>Compartilhamos o amor pelos livros e acreditamos no poder transformador da leitura.</p>
+                    </div>
                 </div>
-                <div class="requirement-card">
-                    <h3>Diferencial </h3>
-                    <ul>
-                        <li>Interesse em design mobile</li>
-                        <li>Curiosidade sobre IA e sistemas de recomendação</li>
-                        <li>Experiência com prototipação</li>
-                        <li>Vontade de construir design systems</li>
-                        <li>Proatividade para propor soluções</li>
-                    </ul>
-                </div>
-            </div>  
-            <div style="text-align: center; margin-top: 2rem;">
-                <a href="https://forms.gle/487ohUqi5pV4xjWP9" class="cta-button" target="_blank">Candidatar-se Agora</a>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- Newsletter -->
+        <section id="newsletter" class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <h2>Fique por dentro das novas vagas</h2>
+                        <p>Cadastre-se para receber notificações sobre novas oportunidades no Leia+ assim que elas surgirem.</p>
+                    </div>
+                    <div class="newsletter-form">
+                        <form class="job-alert-form">
+                            <input type="email" placeholder="Seu melhor email" required>
+                            <button type="submit" class="btn-subscribe">Quero ser notificado</button>
+                        </form>
+                        <p class="newsletter-note">📧 Enviaremos apenas notificações de novas vagas relevantes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Tem dúvidas sobre as vagas?</h3>
+                        <p>Estamos aqui para ajudar! Entre em contato conosco para esclarecer qualquer dúvida sobre as oportunidades disponíveis.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <strong>📧 Email:</strong>
+                                <a href="mailto:vagas@leiamais.com" class="contact-link">vagas@leiamais.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <strong>💼 LinkedIn:</strong>
+                                <a href="#" class="contact-link">linkedin.com/company/leia-mais</a>
+                            </div>
+                            <div class="contact-item">
+                                <strong>📱 Instagram:</strong>
+                                <a href="#" class="contact-link">@leiamaisapp</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Envie uma mensagem</h3>
+                        <form class="message-form">
+                            <input type="text" placeholder="Seu nome" required>
+                            <input type="email" placeholder="Seu email" required>
+                            <select required>
+                                <option value="">Assunto</option>
+                                <option value="vaga-designer">Dúvida sobre vaga de Designer</option>
+                                <option value="futuras-vagas">Interesse em futuras vagas</option>
+                                <option value="parceria">Proposta de parceria</option>
+                                <option value="outro">Outro assunto</option>
+                            </select>
+                            <textarea placeholder="Sua mensagem" rows="4" required></textarea>
+                            <button type="submit" class="btn-send">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script>
@@ -125,7 +305,7 @@
         // Destacar link ativo no menu
         window.addEventListener('scroll', () => {
             const sections = document.querySelectorAll('section[id]');
-            const navLinks = document.querySelectorAll('.nav a[href^="#"]');
+            const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
 
             let current = '';
             sections.forEach(section => {
@@ -142,6 +322,100 @@
                 }
             });
         });
+
+        // Função para compartilhar vaga
+        function shareJob(jobTitle) {
+            if (navigator.share) {
+                navigator.share({
+                    title: `Vaga: ${jobTitle} - Leia+`,
+                    text: `Confira esta oportunidade incrível no Leia+: ${jobTitle}`,
+                    url: window.location.href
+                });
+            } else {
+                // Fallback para cópia do link
+                navigator.clipboard.writeText(window.location.href);
+                alert('Link da vaga copiado para a área de transferência!');
+            }
+        }
+
+        // Form submissions
+        document.addEventListener('DOMContentLoaded', function() {
+            // Menu mobile toggle
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+
+            if (navToggle && navMenu) {
+                navToggle.addEventListener('click', () => {
+                    navMenu.classList.toggle('active');
+                    navToggle.classList.toggle('active');
+                });
+
+                // Fechar menu ao clicar em um link
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.addEventListener('click', () => {
+                        navMenu.classList.remove('active');
+                        navToggle.classList.remove('active');
+                    });
+                });
+            }
+            // Newsletter form
+            const newsletterForm = document.querySelector('.job-alert-form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('Obrigada! Você será notificado sobre novas vagas. 📧');
+                    this.reset();
+                });
+            }
+
+            // Contact form
+            const contactForm = document.querySelector('.message-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('Mensagem enviada com sucesso! Responderemos em breve. 📬');
+                    this.reset();
+                });
+            }
+
+            // Intersection Observer para animações
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observar elementos para animação
+            document.querySelectorAll('.job-card, .culture-item, .stat-card, .future-jobs').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            });
+
+            // Header scroll effect
+            window.addEventListener('scroll', () => {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 50) {
+                    header.style.backgroundColor = 'rgba(255, 255, 255, 0.98)';
+                    header.style.backdropFilter = 'blur(10px)';
+                } else {
+                    header.style.backgroundColor = '#fff';
+                    header.style.backdropFilter = 'none';
+                }
+            });
+        });
+
+        // Expose shareJob function globally
+        window.shareJob = shareJob;
     </script>
 </body>
 
